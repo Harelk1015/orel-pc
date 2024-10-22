@@ -152,13 +152,13 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                                     <b>Dorf,</b>{' '}
                                 </p>
                                 <p style={styles.green}>
-                                    <b>Henry Inc.</b>
+                                    <b>Newedge.xyz</b>
                                 </p>
                             </div>
                         </div>
                         <div style={styles.headerInfo}>
-                            <p>Released: 01/13/2000</p>
-                            <p>HHBIOS (C)2000 Dorf Henry Inc.,</p>
+                            <p>Released: 08/11/2023</p>
+                            <p>HBBIOS (C)2000 Newedge Inc.</p>
                         </div>
                     </div>
                     <div style={styles.body} className="loading-screen-body">
@@ -167,7 +167,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         {showBiosInfo && (
                             <>
                                 <p>HSP Showcase(tm) XX 113</p>
-                                <p>Checking RAM : {14000} OK</p>
+                                <p>Checking RAM : {16000} OK</p>
                                 <div style={styles.spacer} />
                                 <div style={styles.spacer} />
                                 {showLoadingResources ? (
@@ -227,7 +227,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                     <p>But do enjoy what I have done so far :)</p>
                     <div style={styles.spacer} />
                     <div style={styles.spacer} /> */}
-                    <p>Orel Dorf Portfolio Showcase 2022</p>
+                    <p>DORF's Meta-office at Newedge Inc.</p>
                     {mobileWarning && (
                         <>
                             <br />
@@ -255,7 +255,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         }}
                     >
                         <div className="bios-start-button" onClick={start}>
-                            <p>START</p>
+                            <p>ENTER</p>
                         </div>
                     </div>
                 </div>

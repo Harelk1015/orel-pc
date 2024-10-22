@@ -184,7 +184,7 @@ export default class MonitorScreen extends EventEmitter {
 
         // Set iframe attributes
         // PROD
-        iframe.src = 'https://newedge.xyz/';
+        iframe.src = 'https://newedge.xyz/admin/hub-membership/accessplus/';
         /**
          * Use dev server is query params are present
          *

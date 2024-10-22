@@ -6,8 +6,8 @@ interface InfoOverlayProps {
     visible: boolean;
 }
 
-const NAME_TEXT = `DORF's Meta-office`;
-const TITLE_TEXT = 'Newedge.xyz Inc.';
+const NAME_TEXT = `DORF's Meta-Office`;
+const TITLE_TEXT = 'Newedge Inc.';
 const MULTIPLIER = 1;
 
 const InfoOverlay: React.FC<InfoOverlayProps> = ({ visible }) => {

@@ -15,6 +15,27 @@ const App = () => {
         });
     }, []);
 
+    // Listen for window resize events and log size on initial render
+    useEffect(() => {
+        const handleResize = () => {
+            console.log(
+                `Width: ${window.innerWidth}, Height: ${window.innerHeight}`
+            );
+
+            if (window.innerWidth < 1000) {
+                window.location.href = 'https://newedge.xyz/admin/hub-membership/dorf-meta-office-mobile-redirection/';
+            }
+        };
+
+        // Log the size on initial render
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        // Clean up the event listener on component unmount
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     return (
         <div id="ui-app">
             {!loading && <HelpPrompt />}

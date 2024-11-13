@@ -149,7 +149,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         <div style={styles.logoContainer}>
                             <div>
                                 <p style={styles.green}>
-                                    <b>Dorf,</b>{' '}
+                                    <b>DORF.</b>{' '}
                                 </p>
                                 <p style={styles.green}>
                                     <b>Newedge.xyz</b>
@@ -158,7 +158,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         </div>
                         <div style={styles.headerInfo}>
                             <p>Released: 08/11/2023</p>
-                            <p>HBBIOS (C)2000 Newedge Inc.</p>
+                            <p>HBBIOS (C)2023 Newedge Inc.</p>
                         </div>
                     </div>
                     <div style={styles.body} className="loading-screen-body">
@@ -243,7 +243,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         </>
                     )}
                     <div style={{ display: 'flex', alignItems: 'flex-end' }}>
-                        <p>Click start to begin{'\xa0'}</p>
+                        <p>Click start to enter{'\xa0'}</p>
                         <span className="blinking-cursor" />
                     </div>
                     <div
@@ -255,7 +255,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         }}
                     >
                         <div className="bios-start-button" onClick={start}>
-                            <p>ENTER</p>
+                            <p>START</p>
                         </div>
                     </div>
                 </div>
